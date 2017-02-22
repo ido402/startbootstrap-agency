@@ -220,11 +220,11 @@ header {
 // Global Section Styles
 
 section {
-    padding: 100px 0;
+    padding: 75px 0;
     h2.section-heading {
         font-size: 40px;
         margin-top: 0;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
     h3.section-subheading {
         font-size: 16px;
@@ -232,13 +232,13 @@ section {
         text-transform: none;
         font-style: italic;
         font-weight: 400;
-        margin-bottom: 75px;
+        margin-bottom: 50px;
     }
 }
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 75px 0;
     }
 }
 
@@ -339,7 +339,7 @@ section {
         margin-left: -1.5px;
     }
     > li {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         position: relative;
         min-height: 50px;
         &:before,
@@ -431,7 +431,7 @@ section {
             left: 50%;
         }
         > li {
-            margin-bottom: 100px;
+            margin-bottom: 50px;
             min-height: 100px;
             .timeline-panel {
                 width: 41%;
@@ -536,7 +536,7 @@ aside.clients {
 
 section#contact {
     background-color: @gray-darker;
-    background-image: url('../img/map-image.png');
+    //background-image: url('../img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
     .section-heading {
@@ -735,4 +735,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @theme-primary;
+}
+
+#nav-test{
+    background-color: red;
 }

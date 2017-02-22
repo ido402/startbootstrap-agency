@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -278,12 +278,12 @@ header .intro-text .intro-heading {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 75px 0;
 }
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 section h3.section-subheading {
   font-size: 16px;
@@ -291,11 +291,11 @@ section h3.section-subheading {
   text-transform: none;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 75px 0;
   }
 }
 .service-heading {
@@ -383,7 +383,7 @@ section h3.section-subheading {
   margin-left: -1.5px;
 }
 .timeline > li {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   position: relative;
   min-height: 50px;
 }
@@ -468,7 +468,7 @@ section h3.section-subheading {
     left: 50%;
   }
   .timeline > li {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     min-height: 100px;
   }
   .timeline > li .timeline-panel {
@@ -555,7 +555,6 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -743,4 +742,7 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+#nav-test {
+  background-color: red;
 }
