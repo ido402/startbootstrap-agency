@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     .button-variant(white; @theme-primary; @theme-primary);
     .heading-font;
     font-weight: 700;
+    margin-top: 20px;
 }
 
 .btn-xl {
@@ -288,8 +289,8 @@ section {
                     h4 {
                         margin: 0;
                     }
-                }                
-            }            
+                }
+            }
         }
         .portfolio-caption {
             max-width: 400px;
@@ -574,7 +575,7 @@ section#contact {
        font-weight: 700;
        color: @gray-lighter;
     }
-    :-ms-input-placeholder {  
+    :-ms-input-placeholder {
        .heading-font;
        font-weight: 700;
        color: @gray-lighter;
@@ -669,7 +670,7 @@ ul.social-buttons {
             margin-top: 0;
         }
         img {
-            margin-bottom: 30px;
+            //margin-bottom: 30px;
         }
     }
     .close-modal {
@@ -704,8 +705,8 @@ ul.social-buttons {
                 -webkit-transform: rotate(90deg);
                 /* Safari and Chrome */
                 z-index:1052;
-            }            
-        }        
+            }
+        }
     }
     .modal-backdrop {
         opacity: 0;
@@ -739,4 +740,11 @@ body {
 
 #nav-test{
     background-color: red;
+}
+.no-padding {
+  padding: 0 !important;
+}
+
+.carousel img {
+    min-width: 100%;
 }
